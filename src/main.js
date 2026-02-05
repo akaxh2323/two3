@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const val = passwordInput.value.trim().toUpperCase();
 
       // Allow entry if empty just for interaction demo, or specific passwords
-      if (val === 'TWO3MEMBER' || val === 'INVITE') {
+      if (val === 'Ak@shtwo3' || val === 'two3@963') {
         passwordFeedback.textContent = 'ACCESS GRANTED. ENTERING VAULT...';
         passwordFeedback.className = 'feedback-success';
 
