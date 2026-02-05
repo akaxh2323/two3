@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (passwordForm) {
     passwordForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      const val = passwordInput.value.trim().toUpperCase();
+      const val = passwordInput.value.trim();
 
       // Allow entry if empty just for interaction demo, or specific passwords
       if (val === 'Ak@shtwo3' || val === 'two3@963') {
