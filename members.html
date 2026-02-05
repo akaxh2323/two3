@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>two3 | MEMBERS LOUNGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script type="module" src="/src/main.js"></script>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#drops" class="nav-link">DROPS</a>
+            <a href="#archive" class="nav-link">ARCHIVE</a>
+        </div>
+        <div class="nav-center">
+            <div class="brand-logo">two3</div>
+        </div>
+        <div class="nav-right">
+            <span class="member-access">MEMBER ID: 8291</span>
+            <button class="cart-btn">CART (0)</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section" style="height: 50vh; min-height: 400px;">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title" style="font-size: 3rem;">WELCOME TO THE VAULT</h1>
+                <p class="hero-sub">ACCESS GRANTED. EXCLUSIVE DROPS ENACTED.</p>
+            </div>
+        </section>
+
+        <section id="drops" class="drops-section">
+            <header class="section-header">
+                <h2 class="section-title">CURRENT ROTATION</h2>
+                <p class="section-sub">PURCHASE LIMIT: 1 PER MEMBER</p>
+            </header>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <div class="product-image-wrapper">
+                        <div class="product-placeholder"></div>
+                        <div class="product-badges">
+                            <span class="badge">MEMBERS ONLY</span>
+                            <span class="badge limited">LIMITED DROP</span>
+                        </div>
+                        <div class="product-overlay">
+                            <span class="view-text">SECURE</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">OVERSIZED VOID HOODIE</h3>
+                        <span class="product-price">₹4,500</span>
+                        <p class="product-scarcity">23 / 50 REMAINING</p>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <div class="product-image-wrapper">
+                        <div class="product-placeholder"></div>
+                        <div class="product-badges">
+                            <span class="badge">MEMBERS ONLY</span>
+                        </div>
+                        <div class="product-overlay">
+                            <span class="view-text">SECURE</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">SIGNATURE HEAVY TEE</h3>
+                        <span class="product-price">₹2,200</span>
+                        <p class="product-scarcity">LIMITED STOCK</p>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card disabled">
+                    <div class="product-image-wrapper">
+                        <div class="product-placeholder"></div>
+                        <div class="product-badges">
+                            <span class="badge sold-out">SOLD OUT</span>
+                            <span class="badge no-restock">NO RESTOCK</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ARCHIVE CARGO PANT</h3>
+                        <span class="product-price">₹6,800</span>
+                        <p class="product-scarcity">VAULTED</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>two3 MEMBER #8291 logged in.</p>
+            <div class="footer-links">
+                <a href="/index.html">LOGOUT</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
